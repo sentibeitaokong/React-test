@@ -1,2 +1,2 @@
 # React-test
-仅用于react的测试
+仅用于React的测试
