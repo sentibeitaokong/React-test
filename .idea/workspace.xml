@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c233cb47-0ba1-412c-9bc4-e345e2e8848c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/React-test" beforeDir="false" afterPath="$PROJECT_DIR$/React-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/01-helloReact/01-类组件Button按钮.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/01-helloReact/02-函数式组件Button按钮.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/01-helloReact/03-类组件遍历数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/01-helloReact/04-函数式组件实现计数器案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/01-helloReact/05-类组件实现计数器案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/01-helloReact/06-嵌入数据及表达式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/01-helloReact/07-jsx绑定属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/01-helloReact/react/babel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/01-helloReact/react/react-dom.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/01-helloReact/react/react.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/02-learn_component/src/07-React性能优化/03-shouldComponentUpdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/02-learn_component/src/07-React性能优化/05-memo的使用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/02-learn_component/src/08-受控组件和非受控组件/01-refs的使用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React-test/02-learn_component/src/09-高阶组件的使用/07-高阶组件-生命周期劫持增强.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React-test/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/React-test/01-helloReact/08-jsx绑定事件和this处理.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +31,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="React Component" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/React-test" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,7 +56,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/React-test" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/React-test/02-learn_component/src/08-受控组件和非受控组件" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\React测试\react-codeReview\React-test\02-learn_component\src\08-受控组件和非受控组件" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\React测试\react-codeReview\React-test\02-learn_component" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -53,26 +93,40 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="489fb772-6e9d-4cab-9fb4-47f3a9e7f2b8" name="Changes" comment="" />
+      <changelist id="c233cb47-0ba1-412c-9bc4-e345e2e8848c" name="Default Changelist" comment="" />
       <created>1681732782389</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681732782389</updated>
       <workItem from="1681732783638" duration="3671000" />
+      <workItem from="1681890745563" duration="3338000" />
+      <workItem from="1681952841089" duration="7256000" />
+      <workItem from="1682038870613" duration="7607000" />
+      <workItem from="1682047165352" duration="6825000" />
+      <workItem from="1682211448820" duration="4674000" />
+      <workItem from="1682320071990" duration="5574000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1681787391755">
+    <state x="552" y="178" key="#ESLint" timestamp="1681891984895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1681787391755" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1681781123731">
+    <state x="552" y="178" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1681891984895" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1682047162060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1681781123731" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1682047162060" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1681892889156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1681892889156" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1682220100206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1682220100206" />
   </component>
 </project>
