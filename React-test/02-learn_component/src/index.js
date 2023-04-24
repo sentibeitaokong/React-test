@@ -36,7 +36,9 @@ import ReactDOM from 'react-dom/client';
 // import App from './09-高阶组件的使用/05-高阶组件-登录鉴权权限控制';
 // import App from './09-高阶组件的使用/06-高阶组件-生命周期时间劫持';
 // import App from './09-高阶组件的使用/07-高阶组件-生命周期劫持增强';
-import App from './10-组件内容补充/01-ref的补充';
+// import App from './10-组件内容补充/01-ref的补充';
+// import App from './10-组件内容补充/02-portals的使用';
+import App from './10-组件内容补充/03-fragments的使用';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
