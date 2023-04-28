@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import styled from 'styled-components'
-
-
+import styled,{ThemeProvider} from 'styled-components'
+import Home from "../Home";
+import Profile from '../profile'
 const HYButton=styled.button`
     padding:10px;
     color:red
@@ -19,10 +19,13 @@ export default class App extends Component {
 
     render() {
         return (
-            <div>
+            <ThemeProvider theme={{themeColor:'blue',fontSize:'30px'}}>
+                <Home></Home>
                 <HYButton>特殊的按钮</HYButton>
                 <HYPrimaryButton>主要的按钮</HYPrimaryButton>
-            </div>
+                <Profile></Profile>
+            </ThemeProvider>
+
         )
     }
 }
