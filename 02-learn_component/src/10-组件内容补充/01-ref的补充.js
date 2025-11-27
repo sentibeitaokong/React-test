@@ -22,7 +22,7 @@ export default class App extends Component {
     }
     btnClick(){
         console.log(this.countRef.current)
-        // this.countRef.increment()
+        this.countRef.current.increment()
     }
     changeText(){
         this.titleRef.current.innerHTML='Hello World'
@@ -31,7 +31,6 @@ export default class App extends Component {
     }
 }
 
-/*
 class Count extends React.Component {
     constructor(props) {
         super(props);
@@ -54,17 +53,17 @@ class Count extends React.Component {
         })
     }
 }
-*/
 
-const Count=forwardRef((props,ref)=>{
-    const [count,setCount]=React.useState(0)
-    return (
-        <div>
-            <div>{count}</div>
-            <button onClick={()=>increment()}   ref={ref}>+</button>
-        </div>
-    )
-     const increment=()=>{
-        setCount(count+1)
-    }
-})
+// const Count=forwardRef((props,ref)=>{
+//     const [count,setCount]=React.useState(0)
+//     const increment=()=>{
+//         setCount(count+1)
+//     }
+//     return (
+//         <div>
+//             <div>{count}</div>
+//             <button onClick={()=>increment()}   ref={ref}>+</button>
+//         </div>
+//     )
+//
+// })

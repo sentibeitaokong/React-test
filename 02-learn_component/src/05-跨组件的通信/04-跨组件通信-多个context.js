@@ -69,3 +69,5 @@ function ProfileHeader() {
         </UserContext.Consumer>
     )
 }
+
+//当组件不被provider包含时，会在就近找与组件相对应属性的context,并显示默认属性值

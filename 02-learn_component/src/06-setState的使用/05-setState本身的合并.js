@@ -18,9 +18,6 @@ export default class App extends Component {
         )
     }
     increment(){
-        /*this.setState({
-            count:this.state.count+1
-        })
         this.setState({
             count:this.state.count+1
         })
@@ -29,8 +26,11 @@ export default class App extends Component {
         })
         this.setState({
             count:this.state.count+1
-        })*/
-       this.setState((prevState,props)=>{
+        })
+        this.setState({
+            count:this.state.count+1
+        })
+       /*this.setState((prevState,props)=>{
            return {
                count:prevState.count+1
            }
@@ -49,6 +49,6 @@ export default class App extends Component {
             return {
                 count:prevState.count+1
             }
-        })
+        })*/
     }
 }
